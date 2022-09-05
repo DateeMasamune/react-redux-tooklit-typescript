@@ -6,7 +6,9 @@ import {setupStore} from "./store/store";
 
 const store = setupStore();
 
+
 ReactDOM.render(
+	// @ts-ignore
     <Provider store={store}>
         <App />
     </Provider>,
